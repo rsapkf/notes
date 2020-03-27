@@ -55,7 +55,8 @@ Comment=pCloud Cloud Storage
 - `echo`
 - `head`
 - `tail`
-- `alias`
+- `passwd` - change user password.
+- `alias` - list and create aliases.
 - `mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}` - make directories/subdirectories quickly.
 - `chsh` - change login shell.
 - `grep` - pattern searching.

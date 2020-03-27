@@ -41,17 +41,17 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Links</h5>
-            <a href={this.docUrl('linux.html', this.props.language)}>Linux</a>
-            <a href={this.docUrl('vim.html', this.props.language)}>Vim</a>
-            <a href={this.docUrl('tmux.html', this.props.language)}>Tmux</a>
+            <a href={this.docUrl('linux/linux.html', this.props.language)}>Linux</a>
+            <a href={this.docUrl('linux/vim.html', this.props.language)}>Vim</a>
+            <a href={this.docUrl('linux/tmux.html', this.props.language)}>Tmux</a>
           </div>
           <div>
             <h5>Categories</h5>
-            <a href={this.docUrl('linux.html', this.props.language)}>Linux</a>
-            <a href={this.docUrl('python.html', this.props.language)}>
+            <a href={this.docUrl('linux/linux.html', this.props.language)}>Linux</a>
+            <a href={this.docUrl('programming/python.html', this.props.language)}>
               Programming
             </a>
-            <a href={this.docUrl('martin-gardner.html', this.props.language)}>
+            <a href={this.docUrl('mathematics/martin-gardner.html', this.props.language)}>
               Puzzles
             </a>
             {/* <a
@@ -73,7 +73,7 @@ class Footer extends React.Component {
           <div>
             <h5></h5>
             {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
-            <a href={this.pageUrl('docs/linux.html', this.props.language)}>
+            <a href={this.pageUrl('docs/linux/linux.html', this.props.language)}>
               View All Notes
             </a>
             <a href='https://github.com/rsapkf/notes'>GitHub</a>

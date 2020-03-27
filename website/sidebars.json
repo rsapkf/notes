@@ -1,31 +1,31 @@
 {
   "docs": {
     "Linux": [
-      "linux",
-      "vim",
-      "tmux",
-      "bash",
-      "zsh",
-      "rxvt-unicode",
-      "browser",
-      "hacks"
+      "linux/linux",
+      "linux/vim",
+      "linux/tmux",
+      "linux/bash",
+      "linux/zsh",
+      "linux/rxvt-unicode",
+      "linux/browser",
+      "linux/hacks"
     ],
     "Programming": [
-      "python",
-      "javascript",
-      "text-editors",
-      "css",
-      "html"
+      "programming/python",
+      "programming/javascript",
+      "programming/text-editors",
+      "programming/css",
+      "programming/html"
     ],
     "Puzzles/Recreational Mathematics": [
-      "martin-gardner",
-      "brian-brushwood"
+      "mathematics/martin-gardner",
+      "mathematics/brian-brushwood"
     ],
     "Miscellaneous": [
-      "irc",
-      "websites",
-      "poems",
-      "misc"
+      "miscellaneous/irc",
+      "miscellaneous/websites",
+      "miscellaneous/poems",
+      "miscellaneous/misc"
     ]
   }
 }

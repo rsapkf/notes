@@ -1,6 +1,6 @@
 ---
 id: brian-brushwood
-title: Brain Brushwood
+title: Brian Brushwood
 ---
 
 Brian Brushwood Notes.

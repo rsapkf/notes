@@ -7,6 +7,15 @@
 
 /* your custom css */
 
+body {
+    background-color: rgb(205, 176, 224);
+    font-family: $myFont;
+}
+
+::selection {
+    background-color: rgb(82, 226, 226);
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

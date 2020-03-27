@@ -63,7 +63,7 @@ class HomeSplash extends React.Component {
         <div className='inner'>
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href={docUrl('linux.html')}>View Notes</Button>
+            <Button href={docUrl('linux/linux.html')}>View Notes</Button>
             <Button href='https://github.com/rsapkf/notes'>GitHub</Button>
           </PromoSection>
         </div>
@@ -92,22 +92,22 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className='productShowcaseSection paddingBottom'
-        style={{ textAlign: 'left' }}
-      >
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
+    // const FeatureCallout = () => (
+    //   <div
+    //     className='productShowcaseSection paddingBottom'
+    //     style={{ textAlign: 'left' }}
+    //   >
+    //     <h2>Feature Callout</h2>
+    //     <MarkdownBlock>These are features of this project</MarkdownBlock>
+    //   </div>
+    // );
 
     const TryOut = () => (
       <Block id='try'>
         {[
           {
             content:
-              'These are companion notes to my [dotfiles](https://github.com/rsapkf/dotfiles) where I keep short snippets of code, shell scripts, tricks and tips to remember stuff.',
+              'These are companion notes to my [dotfiles](https://github.com/rsapkf/dotfiles) and [links](https://github.com/rsapkf/42/) where I keep short snippets of code, shell scripts, tricks and tips to remember stuff.',
             image: `${baseUrl}img/undraw_taking_notes_tjaf.svg`,
             imageAlign: 'right',
             title: 'About'
@@ -116,67 +116,67 @@ class Index extends React.Component {
       </Block>
     );
 
-    const LearnHow = () => (
-      <Block background='light'>
-        {[
-          {
-            content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors'
-          }
-        ]}
-      </Block>
-    );
+    // const LearnHow = () => (
+    //   <Block background='light'>
+    //     {[
+    //       {
+    //         content:
+    //           'Each new Docusaurus project has **randomly-generated** theme colors.',
+    //         image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+    //         imageAlign: 'right',
+    //         title: 'Randomly Generated Theme Colors'
+    //       }
+    //     ]}
+    //   </Block>
+    // );
 
-    const Features = () => (
-      <Block layout='fourColumn'>
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_taking_notes_tjaf.svg`,
-            imageAlign: 'top',
-            title: 'Feature One'
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_Working_oh83.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two'
-          }
-        ]}
-      </Block>
-    );
+    // const Features = () => (
+    //   <Block layout='fourColumn'>
+    //     {[
+    //       {
+    //         content: 'This is the content of my feature',
+    //         image: `${baseUrl}img/undraw_taking_notes_tjaf.svg`,
+    //         imageAlign: 'top',
+    //         title: 'Feature One'
+    //       },
+    //       {
+    //         content: 'The content of my second feature',
+    //         image: `${baseUrl}img/undraw_Working_oh83.svg`,
+    //         imageAlign: 'top',
+    //         title: 'Feature Two'
+    //       }
+    //     ]}
+    //   </Block>
+    // );
 
-    const Showcase = () => {
-      if ((siteConfig.users || []).length === 0) {
-        return null;
-      }
+    // const Showcase = () => {
+    //   if ((siteConfig.users || []).length === 0) {
+    //     return null;
+    //   }
 
-      const showcase = siteConfig.users
-        .filter(user => user.pinned)
-        .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
-            <img src={user.image} alt={user.caption} title={user.caption} />
-          </a>
-        ));
+    //   const showcase = siteConfig.users
+    //     .filter(user => user.pinned)
+    //     .map(user => (
+    //       <a href={user.infoLink} key={user.infoLink}>
+    //         <img src={user.image} alt={user.caption} title={user.caption} />
+    //       </a>
+    //     ));
 
-      const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
+    //   const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
-      return (
-        <div className='productShowcaseSection paddingBottom'>
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
-          <div className='logos'>{showcase}</div>
-          <div className='more-users'>
-            <a className='button' href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
-    };
+    //   return (
+    //     <div className='productShowcaseSection paddingBottom'>
+    //       <h2>Who is Using This?</h2>
+    //       <p>This project is used by all these people</p>
+    //       <div className='logos'>{showcase}</div>
+    //       <div className='more-users'>
+    //         <a className='button' href={pageUrl('users.html')}>
+    //           More {siteConfig.title} Users
+    //         </a>
+    //       </div>
+    //     </div>
+    //   );
+    // };
 
     return (
       <div>

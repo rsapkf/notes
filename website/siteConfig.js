@@ -38,9 +38,8 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'linux', label: 'Notes' },
-    { doc: 'about', label: 'About' }
-    // {page: 'help', label: 'Help'},
+    { doc: 'linux/linux', label: 'Notes' },
+    { page: 'about', label: 'About' },
     // {blog: true, label: 'Blog'},
   ],
 
@@ -59,10 +58,9 @@ const siteConfig = {
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
     myFont: [
-      "Times New Roman",
+      "Ubuntu",
       "Serif"
     ],
     myOtherFont: [
@@ -70,7 +68,6 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} rsapkf`,
@@ -106,7 +103,7 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/rsapkf/notes',
-  editUrl: 'https://github.com/rsapkf/notes/blob/master/docs//'
+  editUrl: 'https://github.com/rsapkf/notes/blob/master/docs/'
 };
 
 module.exports = siteConfig;
