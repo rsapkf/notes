@@ -31,8 +31,9 @@ title: Browser
 
 ## Useful Shortcuts
 
-- `<C-l>` to highlight the url bar.
-- `<Shift-t>` to get a dropdown menu of all open tabs.
+- `<C-l>` - to highlight the url bar.
+- `<C-Shift-r` / `<C-F5` - reload the tab and clear the cache.
+- `<Shift-t>` - get a dropdown menu of all open tabs.
 
 
 ## Miscellaneous
