@@ -2,11 +2,14 @@
   "docs": {
     "Linux": [
       "linux/linux",
+      "linux/setting-up",
+      "linux/programs",
       "linux/vim",
       "linux/tmux",
       "linux/bash",
       "linux/zsh",
       "linux/rxvt-unicode",
+      "linux/pattern-searching",
       "linux/browser",
       "linux/hacks"
     ],

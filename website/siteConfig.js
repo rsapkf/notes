@@ -61,6 +61,7 @@ const siteConfig = {
   fonts: {
     myFont: [
       "Ubuntu",
+      "monospace",
       "Serif"
     ],
     myOtherFont: [
