@@ -1,0 +1,31 @@
+{
+  "docs": {
+    "Linux": [
+      "linux",
+      "vim",
+      "tmux",
+      "bash",
+      "zsh",
+      "rxvt-unicode",
+      "browser",
+      "hacks"
+    ],
+    "Programming": [
+      "python",
+      "javascript",
+      "text-editors",
+      "css",
+      "html"
+    ],
+    "Puzzles/Recreational Mathematics": [
+      "martin-gardner",
+      "brian-brushwood"
+    ],
+    "Miscellaneous": [
+      "irc",
+      "websites",
+      "poems",
+      "misc"
+    ]
+  }
+}
