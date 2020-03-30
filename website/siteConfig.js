@@ -69,6 +69,7 @@ const siteConfig = {
   fonts: {
     myFont: [
       "Ubuntu",
+      "Open Sans",
       "monospace",
       "Serif"
     ],
@@ -88,6 +89,7 @@ const siteConfig = {
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
+  stylesheets: ['https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu&display=swap'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -107,7 +109,7 @@ const siteConfig = {
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

@@ -14,9 +14,9 @@ title: IRC
 
 - Change password:
 
-    `/msg NickServ SENDPASS youraccountnamehere`
+  `/msg NickServ SENDPASS youraccountnamehere`
 
-    `/msg NickServ SET PASSWORD newpasswordhere`
+  `/msg NickServ SET PASSWORD newpasswordhere`
 
 ## IRC Channels
 

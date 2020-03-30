@@ -1,4 +1,4 @@
-## rsapkf's notes
+## @rsapkf's notes
 
 These are companion notes to my [dotfiles](https://github.com/rsapkf/dotfiles) and [links](https://github.com/rsapkf/42/) where I keep short snippets of code, shell scripts, tricks and tips to remember stuff.
 

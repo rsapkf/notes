@@ -8,6 +8,7 @@ title: Websites
 - See all posts from a specific domain:
 
   `https://news.ycombinator.com/from?site=[domain]`
+  
   `https://news.ycombinator.com/from?site=stratechery.com`
 
 ## Reddit
@@ -25,4 +26,5 @@ title: Websites
 - See all posts within a given domain:
 
   `https://reddit.com/domain/[domain]`
+  
   `https://www.reddit.com/domain/news.ycombinator.com`

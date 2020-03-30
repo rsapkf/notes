@@ -9,7 +9,7 @@ title: Linux
 
   `sensors | awk '/^CPU/ {print $2}'`
 
-- free memory (2.2G/7.6G)
+- Free memory (2.2G/7.6G)
 
   `free -h | awk '/^Mem:/ {print $3 "/" $2}'`
 
@@ -26,6 +26,9 @@ title: Linux
   `echo -e "\e[3m foo \e[23m"`
 
   If this command doesn't print _`foo`_ (in _italics_), switch to a better Terminal Emulator.
+
+- Colormap in terminal
+    `msgcat --color=test`
 
 ## Desktop Entry Template
 
@@ -55,6 +58,7 @@ Comment=pCloud Cloud Storage
 - `echo`
 - `head`
 - `tail`
+- `pwd` - print name of current/working directory
 - `passwd` - change user password.
 - `alias` - list and create aliases.
 - `mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}` - make directories/subdirectories quickly.
