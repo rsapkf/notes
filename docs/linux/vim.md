@@ -1,6 +1,6 @@
 ---
 id: vim
-title: Vim
+title: Vim / Neovim
 ---
 
 ## Enable _Italics_ in Vim

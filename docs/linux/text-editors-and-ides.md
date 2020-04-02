@@ -1,7 +1,11 @@
 ---
-id: text-editors
-title: Text Editors
+id: text-editors-and-ides
+title: Text Editors and IDEs
 ---
+
+## VSCode
+
+## Sublime Text
 
 ## Gedit
 
@@ -17,3 +21,9 @@ title: Text Editors
     `$ mv dracula.xml $HOME/.local/share/gedit/styles/`
 
   - Activate in gedit's preferences dialog.
+
+---
+
+## Pycharm
+
+## IntelliJIDEA

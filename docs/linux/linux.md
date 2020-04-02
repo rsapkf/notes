@@ -25,10 +25,9 @@ title: Linux
 
   `echo -e "\e[3m foo \e[23m"`
 
-  If this command doesn't print _`foo`_ (in _italics_), switch to a better Terminal Emulator.
-
 - Colormap in terminal
-    `msgcat --color=test`
+
+  `msgcat --color=test`
 
 ## Desktop Entry Template
 
@@ -36,7 +35,7 @@ title: Linux
 
 - [freedesktop.org Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
 
-Example .desktop file:
+Example .desktop file (`~/.local/share/applications`):
 
 ```
 [Desktop Entry]
@@ -78,7 +77,6 @@ Comment=pCloud Cloud Storage
   - `[program] !!` - run previous command using [program].
 - `lsusb` - list USB devices.
 - `lsblk` - list information about block devices.
-- `uptime` - tell how long the system has been running.
 - `env` / `printenv` - list all environmental variables.
 - `free` - display amount of free and used memory in the system.
 - `df` - report file system disk space usage.
@@ -97,6 +95,9 @@ Comment=pCloud Cloud Storage
   - `ps aux | grep nginx` - search for 'nginx' in ps output.
 - `htop` - interactive process viewer.
 - `top` - display Linux processes.
+- `cat /proc/loadavg` - load average.
+- `uptime` - tell how long the system has been running.
+- `w` - see who is logged on and what they are doing.
 
 ### System Info
 

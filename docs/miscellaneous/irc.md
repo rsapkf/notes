@@ -20,6 +20,6 @@ title: IRC
 
 ## IRC Channels
 
-- Freenode: `#python`, `##linux`
+- Freenode: `#python`, `##linux`, `#vim`
 - IRCHighway: `#ebooks`
 - Undernet: `#books`
