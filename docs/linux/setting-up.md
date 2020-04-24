@@ -20,6 +20,7 @@ title: Setting up a New Machine
       - Python (Latest)
       - Rust
       - Haskell
+      - Java
 
     - Install Programs:
       - Text Editors:
@@ -34,8 +35,11 @@ title: Setting up a New Machine
       - Terminal Emulators:
         `Alacritty, rxvt-unicode, st`
 
+      - Window Managers:
+        `i3, dwm, dwmstatus`
+     
       - Misc:
-        `i3, zsh, ranger, mutt, Irssi, dmenu, broot, nitrogen, fzf `
+        `sent, zsh, ranger, mutt, Irssi, dmenu, broot, nitrogen, fzf `
 
     - Install Fonts:
       - `Mononoki Nerd Font, Source Code Pro`

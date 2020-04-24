@@ -30,10 +30,13 @@ title: Browser
 
 
 ## Useful Shortcuts
+Shortcuts:
+https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 
 - `<C-l>` - to highlight the url bar.
 - `<C-Shift-r` / `<C-F5` - reload the tab and clear the cache.
 - `<Shift-t>` - get a dropdown menu of all open tabs.
+- `<C-Shift-t` - undo close tab.
 
 
 ## Miscellaneous

@@ -4,3 +4,4 @@ title: Emacs
 ---
 
 ## Emacs
+Emacs Notes.

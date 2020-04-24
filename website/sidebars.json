@@ -2,21 +2,23 @@
   "docs": {
     "Linux": [
       "linux/linux",
+      "linux/suckless",
       "linux/setting-up",
-      "linux/programs",
       "linux/vim",
+      "linux/emacs",
       "linux/tmux",
-      "linux/bash",
-      "linux/zsh",
-      "linux/rxvt-unicode",
+      "linux/git",
+      "linux/window-managers",
+      "linux/terminal-emulators",
+      "linux/shells",
       "linux/pattern-searching",
+      "linux/text-editors-and-ides",
       "linux/browser",
       "linux/hacks"
     ],
     "Programming": [
       "programming/python",
       "programming/javascript",
-      "programming/text-editors",
       "programming/css",
       "programming/html"
     ],

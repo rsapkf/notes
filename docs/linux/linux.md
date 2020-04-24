@@ -5,34 +5,27 @@ title: Linux
 
 ## Some useful commands
 
-- CPU temperature
-
+- CPU temperature<br>
   `sensors | awk '/^CPU/ {print $2}'`
 
-- Free memory (2.2G/7.6G)
-
+- Free memory (2.2G/7.6G)<br>
   `free -h | awk '/^Mem:/ {print $3 "/" $2}'`
 
-- Top 10 most memory intensive processes
-
+- Top 10 most memory intensive processes<br>
   `ps axch -o cmd:15,%mem --sort=-%mem | head`
 
-- Top 10 most CPU intensive processes
-
+- Top 10 most CPU intensive processes<br>
   `ps axch -o cmd:15,%cpu --sort=-%cpu | head`
 
-- Does your Terminal Emulator support _Italics_?
-
+- Does your Terminal Emulator support _Italics_?<br>
   `echo -e "\e[3m foo \e[23m"`
 
-- Colormap in terminal
-
+- Colormap in terminal<br>
   `msgcat --color=test`
 
 ## Desktop Entry Template
 
 - [ArchWiki Page](https://wiki.archlinux.org/index.php/Desktop_entries)
-
 - [freedesktop.org Specification](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#recognized-keys)
 
 Example .desktop file (`~/.local/share/applications`):
@@ -56,8 +49,11 @@ Comment=pCloud Cloud Storage
 - `less`
 - `echo`
 - `head`
+- `cd` - change working directory.
+  - `cd -` - change to previous working directory.
+  - `cd ~-` - same things as `cd -` without echoing the path.
 - `tail`
-- `pwd` - print name of current/working directory
+- `pwd` - print name of current/working directory.
 - `passwd` - change user password.
 - `alias` - list and create aliases.
 - `mkdir -p folder/{sub1,sub2}/{sub1,sub2,sub3}` - make directories/subdirectories quickly.
@@ -88,6 +84,7 @@ Comment=pCloud Cloud Storage
 - `xprop` - property displayer for X.
 - `shred` - overwrite the specified file(s) repeatedly, in order to make it harder for even very expensive hardware probing to recover the data.
 - `mount` - mount a filesystem.
+- `clear` - clear the terminal screen.
 
 ### System Monitoring
 
@@ -98,6 +95,8 @@ Comment=pCloud Cloud Storage
 - `cat /proc/loadavg` - load average.
 - `uptime` - tell how long the system has been running.
 - `w` - see who is logged on and what they are doing.
+- `acpi` - shows battery status and other ACPI information.
+  - `upower -i `upower -e | grep 'BAT'` - battery information.
 
 ### System Info
 
@@ -111,3 +110,7 @@ Comment=pCloud Cloud Storage
 - `vim /etc/resolv.conf` - change DNS server.
 - `ip` - show / manipulate routing, network devices, interfaces and tunnels.
   - `ip addr` - display IP addresses and property information.
+
+
+## Miscellaneous
+- Drop into a tty(tty3): `Ctrl + Alt + F3`
