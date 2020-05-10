@@ -20,6 +20,12 @@ title: Linux
 - Does your Terminal Emulator support _Italics_?<br>
   `echo -e "\e[3m foo \e[23m"`
 
+- `dd` command usage to burn an iso to a flash drive<br>
+  `dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress`
+
+- Display the SSID of connected network<br>
+  `nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2`
+
 - Colormap in terminal<br>
   `msgcat --color=test`
 
@@ -43,8 +49,9 @@ Comment=pCloud Cloud Storage
 
 ## Useful Programs
 
-- `man [program]`
-- `[program] --help`
+- `man [program]` - view man pages for programs.
+- `apropos` - search the manual page names and descriptions.
+- `[program] --help/-h`
 - `cat`
 - `less`
 - `echo`
@@ -114,3 +121,4 @@ Comment=pCloud Cloud Storage
 
 ## Miscellaneous
 - Drop into a tty(tty3): `Ctrl + Alt + F3`
+- Move to different ttys: `Alt + Left/Right`

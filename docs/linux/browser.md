@@ -24,8 +24,11 @@ title: Browser
 - ### `about:config` settings
 
     - `browser.bookmarks.openInTabClosesMenu` - true -> false
+    - `browser.bookmarks.showMobileBookmarks` - true -> false
     - `browser.tabs.loadBookmarksInTabs` - false -> true
     - `browser.tabs.tabMinWidth` - 76 -> 100
+    - `browser.tabs.closeTabByDblclick` - false -> true
+    - `browser.tabs.closeWindowWithLastTab` - true -> false
     - `geo.enabled` - true -> false
 
 

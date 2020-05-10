@@ -38,3 +38,4 @@ In Normal mode:
 - Default `leader` is `\` (I map to it to `<space>` / `,`)
 - `<CR>` (aka carriage/cartridge return) means`Enter`/`Return`.
 - Alternative to `<ESC>`: `<C-[>` (I map `<ESC>` to `jj` / `jk`)
+- `:smile`

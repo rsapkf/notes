@@ -26,6 +26,9 @@
       "mathematics/martin-gardner",
       "mathematics/brian-brushwood"
     ],
+    "Privacy": [
+      "privacy/exporting-data"
+    ],
     "Miscellaneous": [
       "miscellaneous/irc",
       "miscellaneous/websites",
