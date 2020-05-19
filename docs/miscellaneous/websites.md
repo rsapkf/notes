@@ -11,7 +11,6 @@ title: Websites
 - Searx: `http://searxspbitokayvkhzhsnljde7rqmn7rvoga6e4waeub3h7ug3nghoad.onion/`
 - BBC: `https://www.bbcnewsv2vjtpsuy.onion/`
 - The New York Times: `https://www.nytimes3xbfgragh.onion/`
-- 
 
 ## Hacker News
 

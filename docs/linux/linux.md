@@ -122,3 +122,7 @@ Comment=pCloud Cloud Storage
 ## Miscellaneous
 - Drop into a tty(tty3): `Ctrl + Alt + F3`
 - Move to different ttys: `Alt + Left/Right`
+- Mod Keys:
+    - Mod1 : Left alt
+    - Mod3 : Right Alt
+    - Mod4 : Super/Windows

@@ -32,10 +32,35 @@ In Normal mode:
 - `gT` - go to previous tab.
 - `{i}gt` - go to tab in position `i`.
 
+## Command Mode
+
+- `!pwd` - run `pwd` terminal command from vim.
+- `:read date` - insert the output of `date` command in current line.
+  - `:30read date` - insert the output of `date` command in line 30.
+  - `:$read date` - insert the output of `date` command in the last line.
+- `:10,15s/old/new/g` - substitute all occurences of `old` with `new` from line 10 to 15.
+- `:.,.+5s/old/new/g` - substitute all occurences of `old` with `new` from the current line to the next 5 lines.
+- `:g/import/d` - delete all lines including the word `import`.
+- `:g!/import/d` - delete all lines not including the word `import`.
+
+## Working with splits
+
+- `:split` / `:sp` - horizontal split.
+  - `:10sp` - 10 lines high horizontal split.
+  - `<ctrl> w _` - maximize a horizontal split.
+  - `<ctrl> w =` - equalize splits.
+  - `:resize +5` / `:res +5` - increase a split height by 5 lines.
+- `:vsplit` / `:vs` - vertical split.
+  - `<ctrl> w |` - maximize a vertical split.
+  - `<ctrl> w =` - equalize splits.
+  - `:vertical resize +5` / `:vert res +5` - increase a split height by 5 lines.
+- `<ctrl> w c` - close a split.
+- `<ctrl> w R` - swap splits.
+
 ## Miscellaneous
 
 - `:set wrap` / `:set nowrap`
 - Default `leader` is `\` (I map to it to `<space>` / `,`)
-- `<CR>` (aka carriage/cartridge return) means`Enter`/`Return`.
+- `<CR>` (aka carriage/cartridge return) means `Enter`/`Return`.
 - Alternative to `<ESC>`: `<C-[>` (I map `<ESC>` to `jj` / `jk`)
 - `:smile`

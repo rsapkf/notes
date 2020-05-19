@@ -18,3 +18,9 @@ title: Exporting Data
   - Go to [reddit.com/subreddits](https://reddit.com/subreddits) or [reddit.com/subreddits/mine](https://reddit.com/subreddits/mine).
   - Click on `multireddit of your subscriptions`.
   - Save the link.
+
+## Pocket
+- [Pocket Export](https://getpocket.com/export)
+
+## Facebook (I don't use Facebook)
+- [Download Facebook Information](https://www.facebook.com/dyi/)
