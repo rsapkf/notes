@@ -10,8 +10,8 @@ title: Python
 - `list[::-1]` / `list.reverse()` - reverse a list.
 
 - Get Python version
-    ```
-    import sys
 
-    print(sys.version)
-    ```
+  ```python
+  import sys
+  print(sys.version)
+  ```

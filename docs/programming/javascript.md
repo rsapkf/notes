@@ -7,7 +7,6 @@ title: JavaScript
 
   `possibleOptions[Math.floor(Math.random()*possibleOptions.length)];`
 
-
 ## Node/npm
 
 - See all user installed packages:

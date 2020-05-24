@@ -22,5 +22,5 @@ title: Exporting Data
 ## Pocket
 - [Pocket Export](https://getpocket.com/export)
 
-## Facebook (I don't use Facebook)
+## Facebook (DON'T use Facebook)
 - [Download Facebook Information](https://www.facebook.com/dyi/)

@@ -103,7 +103,7 @@ Comment=pCloud Cloud Storage
 - `uptime` - tell how long the system has been running.
 - `w` - see who is logged on and what they are doing.
 - `acpi` - shows battery status and other ACPI information.
-  - `upower -i `upower -e | grep 'BAT'` - battery information.
+  - `upower -i `upower -e | grep 'BAT'`` - battery information.
 
 ### System Info
 
@@ -118,11 +118,11 @@ Comment=pCloud Cloud Storage
 - `ip` - show / manipulate routing, network devices, interfaces and tunnels.
   - `ip addr` - display IP addresses and property information.
 
-
 ## Miscellaneous
+
 - Drop into a tty(tty3): `Ctrl + Alt + F3`
 - Move to different ttys: `Alt + Left/Right`
 - Mod Keys:
-    - Mod1 : Left alt
-    - Mod3 : Right Alt
-    - Mod4 : Super/Windows
+  - Mod1 : Left alt
+  - Mod3 : Right Alt
+  - Mod4 : Super/Windows
