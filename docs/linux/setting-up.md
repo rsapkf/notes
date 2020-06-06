@@ -27,7 +27,7 @@ title: Setting up a New Machine
         - `Vim/Neovim, Emacs(Orgmode, Evil), VSCode, Gedit, Sublime Text`
       
       - IDEs:
-        - `Pycharm, IntellijIDEA, Android Stuio`
+        - `Pycharm, IntellijIDEA, Android Studio`
 
       - Web Browsers:
         - `Firefox Developer Edition, Brave, Chromium, qutebrowser, surf, w3m, lynx`
