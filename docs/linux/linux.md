@@ -5,28 +5,32 @@ title: Linux
 
 ## Some useful commands
 
-- CPU temperature<br>
-  `sensors | awk '/^CPU/ {print $2}'`
+- Free memory (2.2G/7.6G)
 
-- Free memory (2.2G/7.6G)<br>
   `free -h | awk '/^Mem:/ {print $3 "/" $2}'`
 
-- Top 10 most memory intensive processes<br>
+- Top 10 most memory intensive processes
+
   `ps axch -o cmd:15,%mem --sort=-%mem | head`
 
-- Top 10 most CPU intensive processes<br>
+- Top 10 most CPU intensive processes
+
   `ps axch -o cmd:15,%cpu --sort=-%cpu | head`
 
-- Does your Terminal Emulator support _Italics_?<br>
+- Does your Terminal Emulator support _Italics_?
+
   `echo -e "\e[3m foo \e[23m"`
 
-- `dd` command usage to burn an iso to a flash drive<br>
+- `dd` command usage to burn an iso to a flash drive
+
   `dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress`
 
-- Display the SSID of connected network<br>
+- Display the SSID of connected network
+
   `nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2`
 
-- Colormap in terminal<br>
+- Colormap in terminal
+
   `msgcat --color=test`
 
 ## Desktop Entry Template
@@ -103,7 +107,7 @@ Comment=pCloud Cloud Storage
 - `uptime` - tell how long the system has been running.
 - `w` - see who is logged on and what they are doing.
 - `acpi` - shows battery status and other ACPI information.
-  - `upower -i `upower -e | grep 'BAT'`` - battery information.
+  - `upower -i`upower -e | grep 'BAT'`` - battery information.
 
 ### System Info
 
