@@ -47,8 +47,8 @@ const siteConfig = {
   headerLinks: [
     { doc: 'linux/linux', label: 'Notes' },
     { page: 'about', label: 'About' },
+    // { blog: true, label: 'Blog' },
     { search: true },
-    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -97,8 +97,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  // ogImage: 'img/undraw_online.svg',
+  // twitterImage: 'img/undraw_tweetstorm.svg',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
