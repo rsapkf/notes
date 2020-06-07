@@ -26,15 +26,15 @@ title: Linux
 - Colormap in terminal<br />
   `msgcat --color=test`
 
-- Set a random wallpaper from /r/earthporn<br />
+- Set a random wallpaper from r/earthporn<br />
   `wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill`
 
-- Browse memes from /r/memes<br />
+- Browse memes from r/memes<br />
   `wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh`
 
 - Runs `command1` 1 out of 10 times<br />
   `[ $[$RANDOM % 10] = 0 ] && command1 || command2`<br />
-  `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`
+  `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`<br />
   `[ $[$RANDOM % 10] = 0 ] && cmatrix || clear`
 
 ## Desktop Entry Template
