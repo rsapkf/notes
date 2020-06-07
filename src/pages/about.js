@@ -11,6 +11,7 @@ function Hello() {
           alignItems: 'center',
           height: '50vh',
           fontSize: '17px',
+          padding: '15px',
         }}
       >
         <p>

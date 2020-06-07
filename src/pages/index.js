@@ -76,15 +76,15 @@ function Home() {
               View Notes
             </Link>
             &nbsp;&nbsp;
-            <Link
+            <a
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https:/github.com/rsapkf/notes'}
+              href='https:/github.com/rsapkf/notes/'
             >
               GitHub
-            </Link>
+            </a>
           </div>
         </div>
       </header>

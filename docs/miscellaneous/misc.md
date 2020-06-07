@@ -13,11 +13,13 @@ GIT_USER=USERNAME CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages # 
 GIT_USER=USERNAME CURRENT_BRANCH=master npm run publish-gh-pages # HTTPS
 ```
 
-## 5, 9, 14 Eyes countries
+## Publish Docusaurus(v2) site:
 
-- 5 eyes: `Australia, Canada, NZ, UK, USA`
-- 9 eyes: `Denmark, France, Netherlands, Norway`
-- 14 eyes: `Germany, Belgium, Italy, Sweden, Spain`
+```
+GIT_USER=USERNAME CURRENT_BRANCH=master USE_SSH=true yarn deploy # SSH
+# or
+GIT_USER=USERNAME CURRENT_BRANCH=master yarn deploy # HTTPS
+```
 
 ## Miscellaneous
 

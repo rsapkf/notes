@@ -112,7 +112,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} rsapkf.`,
+      copyright: `© ${new Date().getFullYear()} rsapkf.`,
     },
   },
   presets: [

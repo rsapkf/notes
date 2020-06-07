@@ -34,6 +34,9 @@ In Normal mode:
 
 ## Command Mode
 
+- `:earlier 10m` - time travel in time to 10 minutes ago inside Vim.
+- `:later 10m` - time travel in time to 10 minutes later inside Vim.
+- `:norm Ibegin` - go to the beginning of a line and enter `begin`, then repeat across all selected lines.
 - `!pwd` - run `pwd` terminal command from vim.
 - `:read date` - insert the output of `date` command in current line.
   - `:30read date` - insert the output of `date` command in line 30.
@@ -42,6 +45,7 @@ In Normal mode:
 - `:.,.+5s/old/new/g` - substitute all occurences of `old` with `new` from the current line to the next 5 lines.
 - `:g/import/d` - delete all lines including the word `import`.
 - `:g!/import/d` - delete all lines not including the word `import`.
+- `:g/^@/m$` - move all lines starting with `@` to the end of the document.
 
 ## Working with splits
 

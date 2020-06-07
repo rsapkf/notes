@@ -5,33 +5,37 @@ title: Linux
 
 ## Some useful commands
 
-- Free memory (2.2G/7.6G)
-
+- Free memory (2.2G/7.6G)<br />
   `free -h | awk '/^Mem:/ {print $3 "/" $2}'`
 
-- Top 10 most memory intensive processes
-
+- Top 10 most memory intensive processes<br />
   `ps axch -o cmd:15,%mem --sort=-%mem | head`
 
-- Top 10 most CPU intensive processes
-
+- Top 10 most CPU intensive processes<br />
   `ps axch -o cmd:15,%cpu --sort=-%cpu | head`
 
-- Does your Terminal Emulator support _Italics_?
-
+- Does your Terminal Emulator support _Italics_?<br />
   `echo -e "\e[3m foo \e[23m"`
 
-- `dd` command usage to burn an iso to a flash drive
-
+- `dd` command usage to burn an iso to a flash drive<br />
   `dd if=Downloads/archlinux-x86_64.iso of=/dev/sdb status=progress`
 
-- Display the SSID of connected network
-
+- Display the SSID of connected network<br />
   `nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d\' -f2`
 
-- Colormap in terminal
-
+- Colormap in terminal<br />
   `msgcat --color=test`
+
+- Set a random wallpaper from /r/earthporn<br />
+  `wget -O - -q reddit.com/r/earthporn.json | jq '.data.children[] |.data.url' | head -1 | xargs feh --bg-fill`
+
+- Browse memes from /r/memes<br />
+  `wget -O - -q reddit.com/r/memes.json | jq '.data.children[] |.data.url' | xargs feh`
+
+- Runs `command1` 1 out of 10 times<br />
+  `[ $[$RANDOM % 10] = 0 ] && command1 || command2`<br />
+  `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`
+  `[ $[$RANDOM % 10] = 0 ] && cmatrix || clear`
 
 ## Desktop Entry Template
 
