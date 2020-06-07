@@ -35,7 +35,7 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: '1de83fa2ba21b6cfbec9865ea4f26935y',
+      apiKey: '1de83fa2ba21b6cfbec9865ea4f26935',
       indexName: 'rsapkf',
       // appId: 'app-id', // Optional, if you run the DocSearch crawler on your own
       algoliaOptions: {}, // Optional, if provided by Algolia
@@ -123,12 +123,10 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'linux/linux',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/rsapkf/notes/blob/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl: 'https://github.com/rsapkf/notes/blob/master/',
         },
         theme: {
