@@ -7,25 +7,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
-  {
-    title: <>About</>,
-    imageUrl: '',
-    description: (
-      <>
-        <p>
-          These are companion notes to my [
-          <a href='https://github.com/rsapkf/dotfiles/'>dotfiles</a>] and [
-          <a href='https://github.com/rsapkf/42/'>links</a>] where I keep short
-          snippets of code, shell scripts, tricks and tips to remember stuff.
-        </p>
-      </>
-    ),
-  },
-  {
-    title: <></>,
-    imageUrl: 'img/undraw_taking_notes_tjaf.svg',
-    description: <></>,
-  },
+  // {
+  //   title: <></>,
+  //   imageUrl: '',
+  //   description: (
+  //     <>
+  //       <p>
+  //         These are companion notes to my [
+  //         <a href='https://github.com/rsapkf/dotfiles/'>dotfiles</a>] and [
+  //         <a href='https://github.com/rsapkf/42/'>links</a>] where I keep short
+  //         snippets of code, shell scripts, tricks and tips to remember stuff.
+  //       </p>
+  //     </>
+  //   ),
+  // },
+  // {
+  //   title: <></>,
+  //   imageUrl: 'img/undraw_taking_notes.svg',
+  //   description: <></>,
+  // },
   // {
   //   title: <>Powered by React</>,
   //   imageUrl: 'img/undraw_docusaurus_react.svg',
@@ -86,6 +86,21 @@ function Home() {
         </div>
       </header>
       <main>
+        <section
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            marginBottom: '20px',
+            marginTop: '20px',
+          }}
+        >
+          <img
+            src='../../static/img/mcfly.png'
+            alt='George McFly'
+            style={{ width: '40%' }}
+          />
+        </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className='container'>

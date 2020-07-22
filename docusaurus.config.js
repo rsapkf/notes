@@ -12,7 +12,7 @@ module.exports = {
       title: '[ rsapkf / notes ]',
       logo: {
         alt: 'notes logo',
-        src: 'img/undraw_Notebook_tlkl.svg',
+        src: 'img/undraw_Notebook.svg',
       },
       links: [
         {
