@@ -7,25 +7,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
-  // {
-  //   title: <></>,
-  //   imageUrl: '',
-  //   description: (
-  //     <>
-  //       <p>
-  //         These are companion notes to my [
-  //         <a href='https://github.com/rsapkf/dotfiles/'>dotfiles</a>] and [
-  //         <a href='https://github.com/rsapkf/42/'>links</a>] where I keep short
-  //         snippets of code, shell scripts, tricks and tips to remember stuff.
-  //       </p>
-  //     </>
-  //   ),
-  // },
-  // {
-  //   title: <></>,
-  //   imageUrl: 'img/undraw_taking_notes.svg',
-  //   description: <></>,
-  // },
+  {
+    title: <></>,
+    imageUrl: '',
+    description: (
+      <>
+        <p>
+          These are companion notes to my [
+          <a href='https://github.com/rsapkf/dotfiles/'>dotfiles</a>] and [
+          <a href='https://github.com/rsapkf/42/'>links</a>] where I keep short
+          snippets of code, shell scripts, tricks and tips to remember stuff.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: <></>,
+    imageUrl: 'img/undraw_taking_notes.svg',
+    description: <></>,
+  },
   // {
   //   title: <>Powered by React</>,
   //   imageUrl: 'img/undraw_docusaurus_react.svg',
@@ -78,7 +78,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              href='https:/github.com/rsapkf/notes/'
+              href='https://github.com/rsapkf/notes/'
             >
               GitHub
             </a>
@@ -91,15 +91,17 @@ function Home() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            marginBottom: '20px',
             marginTop: '20px',
           }}
         >
-          <img
-            src='../../static/img/mcfly.png'
-            alt='George McFly'
-            style={{ width: '40%' }}
-          />
+          <blockquote>
+            <p style={{ fontSize: '1.3rem' }}>
+              <i>I'm writing this down. This is good stuff.</i>
+            </p>
+            <footer>
+              - George McFly, Back to the Future (1985), at precisely 1:03:59
+            </footer>
+          </blockquote>
         </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
