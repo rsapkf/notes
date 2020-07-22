@@ -19,7 +19,6 @@ title: IRC
   `/msg NickServ SET PASSWORD newpasswordhere`
 
 ## IRC Channels
-
 - Freenode: `#python`, `##linux`, `#vim`
 - IRCHighway: `#ebooks`
 - Undernet: `#books`

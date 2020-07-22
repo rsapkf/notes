@@ -1,5 +1,5 @@
 ---
-id: pattern-searching
+id: grep-ripgrep
 title: grep / ripgrep
 ---
 

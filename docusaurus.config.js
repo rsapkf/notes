@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'rsapkf', // Usually your GitHub org/user name.
   projectName: 'notes', // Usually your repo name.
   themeConfig: {
+    // sidebarCollapsible: false,
     navbar: {
       title: '[ rsapkf / notes ]',
       logo: {

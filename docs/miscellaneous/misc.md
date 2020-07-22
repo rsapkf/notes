@@ -23,4 +23,6 @@ GIT_USER=USERNAME CURRENT_BRANCH=master yarn deploy # HTTPS
 
 ## Miscellaneous
 
-- pCloud WebDAV: https://webdav.pcloud.com
+- pCloud WebDAV: `https://webdav.pcloud.com`
+- ProtonMail aliases: `username+anything@protonmail.com`
+- [Fully Qualifed Domain Name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name), [dns-sd.org](http://www.dns-sd.org/TrailingDotsInDomainNames.html)

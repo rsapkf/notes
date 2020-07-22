@@ -41,8 +41,12 @@ title: Browser
 Shortcuts:
 https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 
+- `Home` - move to the top of the page. I recommend using Vimium.
 - `<C-l>` - highlight the url bar.
-- `<C-Shift-o>` - oen bookmark manager.
+- `<C-Shift-o>` - open bookmark manager.
+- `<C-Shift-a>` - open addons manager.
+- `<C-Shift-Del>` - clear recent history.
+- `<C-Shift-d>` - bookmark all open tabs in a folder.
 - `<C-Shift-r` / `<C-F5` - reload the tab and clear the cache.
 - `<Shift-t>` - get a dropdown menu of all open tabs.
 - `<C-Shift-t` - undo close tab.

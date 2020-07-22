@@ -26,6 +26,7 @@ title: Exporting Data
 ## Pocket
 
 - [Pocket Export](https://getpocket.com/export)
+- [Pocket Delete Data](https://getpocket.com/privacy_clear/)
 
 ## Facebook (don't recommend using this junk but here it is anyway)
 

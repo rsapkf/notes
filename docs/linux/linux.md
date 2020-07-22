@@ -56,17 +56,23 @@ Comment=pCloud Cloud Storage
 ```
 
 ## Useful Programs
-
 - `man [program]` - view man pages for programs.
 - `apropos` - search the manual page names and descriptions.
 - `[program] --help/-h`
 - `cat`
+- `tr` - translate or delete characters.
+- `cut` - remove sections from each line of files.
+  - `cut -d, -f 2,3 ratings.csv` - output only the 2nd and 3rd columns from ratings.csv file.
 - `less`
 - `echo`
 - `head`
+- `date` -  print or set the system date and time.
+  - `date +%s` - unix timestamp.
+- `time` - run programs and summarize system resource usage.
+- `cal` - displays a calendar.
 - `cd` - change working directory.
   - `cd -` - change to previous working directory.
-  - `cd ~-` - same things as `cd -` without echoing the path.
+  - `cd ~-` - same thing as `cd -` without echoing the path.
 - `tail`
 - `pwd` - print name of current/working directory.
 - `passwd` - change user password.
@@ -100,9 +106,12 @@ Comment=pCloud Cloud Storage
 - `shred` - overwrite the specified file(s) repeatedly, in order to make it harder for even very expensive hardware probing to recover the data.
 - `mount` - mount a filesystem.
 - `clear` - clear the terminal screen.
+- `locate` - find files by name.
+- `updatedb` - creates or updates a database used by locate.
+- `find` - search for files in a directory hierarchy.
+- `file` - determine file type.
 
 ### System Monitoring
-
 - `ps` - report a snapshot of the current processes.
   - `ps aux | grep nginx` - search for 'nginx' in ps output.
 - `htop` - interactive process viewer.
@@ -111,23 +120,21 @@ Comment=pCloud Cloud Storage
 - `uptime` - tell how long the system has been running.
 - `w` - see who is logged on and what they are doing.
 - `acpi` - shows battery status and other ACPI information.
-  - `upower -i`upower -e | grep 'BAT'`` - battery information.
+  - (upower -i \`upower -e | grep 'BAT'\`) - battery information.
+- `pidof [program]`  - find the process ID of a running program.
 
 ### System Info
-
 - `lsb_release -a` - print distribution-specific information.
 - `cat /etc/*release`
 - `uname -a` - print system information.
 - `cat /etc/fstab` - static file system information.
 
 ### Networking
-
 - `vim /etc/resolv.conf` - change DNS server.
 - `ip` - show / manipulate routing, network devices, interfaces and tunnels.
   - `ip addr` - display IP addresses and property information.
 
 ## Miscellaneous
-
 - Drop into a tty(tty3): `Ctrl + Alt + F3`
 - Move to different ttys: `Alt + Left/Right`
 - Mod Keys:
