@@ -1,6 +1,6 @@
 module.exports = {
   title: '[ rsapkf / notes ]',
-  tagline: "rsapkf's notes.",
+  tagline: '"I\'m writing this down. This is good stuff." - George McFly',
   url: 'https://rsapkf.github.io',
   baseUrl: '/notes/',
   favicon: 'img/favicon.ico',

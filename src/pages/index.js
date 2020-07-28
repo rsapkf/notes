@@ -86,23 +86,6 @@ function Home() {
         </div>
       </header>
       <main>
-        <section
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            marginTop: '20px',
-          }}
-        >
-          <blockquote>
-            <p style={{ fontSize: '1.3rem' }}>
-              <i>I'm writing this down. This is good stuff.</i>
-            </p>
-            <footer>
-              - George McFly, Back to the Future (1985), at precisely 1:03:59
-            </footer>
-          </blockquote>
-        </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className='container'>
