@@ -22,6 +22,7 @@ title: git
 - Get a list of the deleted files in git history
 
   `git log --diff-filter=D --summary | grep delete` - without commit hashes.
+
   `git log --diff-filter=D --summary | grep -E 'delete|^commit\s+\S+'` - with commit hashes.
 
 - Print a leaderboard of authors based on number of commits in a git repo
