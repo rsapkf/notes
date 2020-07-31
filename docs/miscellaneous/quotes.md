@@ -48,13 +48,19 @@ title: Quotes
 - In [Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Star_Trek:_The_Next_Generation)
   > _Space: the final frontier. These are the voyages of the starship Enterprise. **Its continuing mission**: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!_
 
-#### Leonard Nimoy
+#### Spock (Leonard Nimoy)
 
 > _The needs of the many outweigh the needs of the few. Or the one._
 
 > _When you eliminate the impossible, whatever remains, however improbable, must be the truth._
 
-> _Live Long and Prosper._
+> _Live Long and Prosper._ 🖖
+
+### The Big Bang Theory
+
+#### Sheldon Cooper
+
+> _Bazinga!_
 
 ### The Witcher
 
