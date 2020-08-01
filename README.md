@@ -8,7 +8,7 @@ These are companion notes to my [dotfiles](https://github.com/rsapkf/dotfiles) a
 
 Notes are in [docs/](https://github.com/rsapkf/notes/tree/master/docs) directory.
 
-View all notes: [rsapkf.github.io/notes](https://rsapkf.github.io/notes/)
+View all notes: [notes.rsapkf.xyz](https://notes.rsapkf.xyz/)
 
 _Built using [Docusaurus v2](https://v2.docusaurus.io/)._
 _Search powered by [Algolia DocSearch](https://github.com/algolia/docsearch/)._
