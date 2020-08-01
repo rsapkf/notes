@@ -1,8 +1,9 @@
 module.exports = {
   title: '[ rsapkf / notes ]',
   tagline: '"I\'m writing this down. This is good stuff." - George McFly',
-  url: 'https://rsapkf.github.io',
-  baseUrl: '/notes/',
+  // url: 'https://rsapkf.github.io',
+  url: 'https://rsapkf-notes.netlify.app',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'rsapkf', // Usually your GitHub org/user name.
   projectName: 'notes', // Usually your repo name.
