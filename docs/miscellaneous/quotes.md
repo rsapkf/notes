@@ -68,7 +68,9 @@ title: Quotes
 
 ### The Witcher
 
-> _...if I'm to choose between one evil and another, then I prefer not to choose at all._ - Geralt of Rivia, The Last Wish
+#### Geralt of Rivia, The Last Wish
+
+> _...if I'm to choose between one evil and another, then I prefer not to choose at all._
 
 ### Fullmetal Alchemist
 

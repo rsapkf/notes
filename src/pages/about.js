@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 
-function Hello() {
+function About() {
   return (
     <Layout title='Hello'>
       <div
@@ -39,4 +39,4 @@ function Hello() {
   );
 }
 
-export default Hello;
+export default About;
