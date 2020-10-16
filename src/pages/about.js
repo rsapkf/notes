@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 
 function About() {
   return (
-    <Layout title='Hello'>
+    <Layout title='About'>
       <div
         style={{
           display: 'flex',

@@ -37,6 +37,15 @@ title: Linux
   `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`<br />
   `[ $[$RANDOM % 10] = 0 ] && cmatrix || clear`
 
+## Connect to a hidden wifi network using `nmcli`:
+
+```
+nmcli c add type wifi con-name <connect name> ifname wlp1s0 ssid <SSID>
+nmcli con modify <connect name> wifi-sec.key-mgmt wpa-psk
+nmcli con modify <connect name> wifi-sec.psk <password>
+nmcli con up <connect name>
+```
+
 ## Desktop Entry Template
 
 - [ArchWiki Page](https://wiki.archlinux.org/index.php/Desktop_entries)

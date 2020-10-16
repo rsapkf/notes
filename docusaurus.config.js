@@ -34,6 +34,11 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://rsapkf.xyz/',
+          label: 'rsapkf.xyz',
+          position: 'right',
+        },
       ],
     },
     algolia: {
@@ -114,7 +119,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `© ${new Date().getFullYear()} rsapkf.`,
+      copyright: `© ${new Date().getFullYear()} <a href="https://rsapkf.xyz/">rsapkf</a>`,
     },
   },
   presets: [
