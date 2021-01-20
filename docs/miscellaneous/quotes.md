@@ -19,9 +19,17 @@ title: Quotes
 
 > _No great mind has ever existed without a touch of madness._
 
+### Epicurus
+
+> _Death does not concern us, because as long as we exist, death is not here. And when it does come, we no longer exist._
+
 ### Rashi
 
 > _Receive with simplicity everything that happens to you._
+
+### Blaise Pascal
+
+> _All of humanity's problems stem from man's inability to sit quietly in a room alone._
 
 ---
 
@@ -76,6 +84,12 @@ title: Quotes
 
 > _Humankind cannot gain something without first giving something in return. To obtain, something of equal value must be lost. This is Alchemy's First Law of Equivalent Exchange. In those days, we really believed that to be the world's one, and only, truth._
 
+### BoJack Horseman
+
+#### Mr. Peanutbutter
+
+> _The universe is a cruel, uncaring void. The key to being happy isn't a search for meaning. It's to keep yourself busy with unimportant nonsense, and eventually you'll be dead._
+
 ---
 
 ## Science
@@ -86,8 +100,22 @@ title: Quotes
 
 ---
 
-## Other
+## Misc.
+
+### Douglas Adams
+
+- In [The Long Dark Tea-Time of the Soul, Dirk Gently #2](https://en.wikipedia.org/wiki/The_Long_Dark_Tea-Time_of_the_Soul)
+
+> _I may not have gone where I intended to go, but I think I have ended up where I needed to be._
+
+### Mark Twain
+
+> _It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt._
 
 ### James Randi
 
 > _I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right._ - James Randi
+
+### Rob Siltanen
+
+> _Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do._

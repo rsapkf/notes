@@ -46,6 +46,16 @@ nmcli con modify <connect name> wifi-sec.psk <password>
 nmcli con up <connect name>
 ```
 
+## macchanger:
+
+```
+sudo service network-manager stop
+sudo ifconfig wlan0 down
+sudo macchanger -r wlan0
+sudo ifconfig wlan0 up
+sudo service network-manager start
+```
+
 ## Desktop Entry Template
 
 - [ArchWiki Page](https://wiki.archlinux.org/index.php/Desktop_entries)
