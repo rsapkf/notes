@@ -22,6 +22,6 @@ title: Poems
 
 - [If—](https://www.poetryfoundation.org/poems/46473/if---) (1943)
 
-## Misc.
+## Miscellaneous
 
 - [Ozymandias](https://www.poetryfoundation.org/poems/46565/ozymandias) (1977) - Percy Bysshe Shelley

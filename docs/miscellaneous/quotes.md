@@ -100,7 +100,7 @@ title: Quotes
 
 ---
 
-## Misc.
+## Miscellaneous
 
 ### Douglas Adams
 

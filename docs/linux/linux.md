@@ -37,7 +37,7 @@ title: Linux
   `[ $[$RANDOM % 10] = 0 ] && timeout 5 command1 || command2`<br />
   `[ $[$RANDOM % 10] = 0 ] && cmatrix || clear`
 
-## Connect to a hidden wifi network using `nmcli`:
+## Connect to a hidden wifi network using `nmcli`
 
 ```
 nmcli c add type wifi con-name <connect name> ifname wlp1s0 ssid <SSID>
@@ -46,7 +46,7 @@ nmcli con modify <connect name> wifi-sec.psk <password>
 nmcli con up <connect name>
 ```
 
-## macchanger:
+## Change MAC address using `macchanger`
 
 ```
 sudo service network-manager stop
@@ -75,6 +75,7 @@ Comment=pCloud Cloud Storage
 ```
 
 ## Useful Programs
+
 - `man [program]` - view man pages for programs.
 - `apropos` - search the manual page names and descriptions.
 - `[program] --help/-h`
@@ -85,7 +86,7 @@ Comment=pCloud Cloud Storage
 - `less`
 - `echo`
 - `head`
-- `date` -  print or set the system date and time.
+- `date` - print or set the system date and time.
   - `date +%s` - unix timestamp.
 - `time` - run programs and summarize system resource usage.
 - `cal` - displays a calendar.
@@ -131,6 +132,7 @@ Comment=pCloud Cloud Storage
 - `file` - determine file type.
 
 ### System Monitoring
+
 - `ps` - report a snapshot of the current processes.
   - `ps aux | grep nginx` - search for 'nginx' in ps output.
 - `htop` - interactive process viewer.
@@ -140,20 +142,23 @@ Comment=pCloud Cloud Storage
 - `w` - see who is logged on and what they are doing.
 - `acpi` - shows battery status and other ACPI information.
   - (upower -i \`upower -e | grep 'BAT'\`) - battery information.
-- `pidof [program]`  - find the process ID of a running program.
+- `pidof [program]` - find the process ID of a running program.
 
 ### System Info
+
 - `lsb_release -a` - print distribution-specific information.
 - `cat /etc/*release`
 - `uname -a` - print system information.
 - `cat /etc/fstab` - static file system information.
 
 ### Networking
+
 - `vim /etc/resolv.conf` - change DNS server.
 - `ip` - show / manipulate routing, network devices, interfaces and tunnels.
   - `ip addr` - display IP addresses and property information.
 
 ## Miscellaneous
+
 - Drop into a tty(tty3): `Ctrl + Alt + F3`
 - Move to different ttys: `Alt + Left/Right`
 - Mod Keys:
