@@ -27,6 +27,7 @@ module.exports = {
       'mathematics/martin-gardner',
       'mathematics/brian-brushwood',
       'mathematics/mathematics',
+      'mathematics/mnemonics',
     ],
     Privacy: ['privacy/privacy', 'privacy/exporting-data'],
     Miscellaneous: [
