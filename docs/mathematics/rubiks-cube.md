@@ -78,8 +78,26 @@ title: Rubik's Cube
 - 4Ts: `F2 D2 F' L2 D2 U2 R2 B' U2 F2`
 - 6Ts: `F2 R2 U2 F' B D2 L2 F B`
 
+### Terminology
+
+- Sexy: `R U R' U'`
+- Sledgehammer: `R' F R F'`
+- Sune / Anti-chair: `R U R' U R U2 R'`
+- Fat Sune: `r U R' U R U2 r'`
+- Antisune / Chair: `R U2 R' U' R U' R'`
+- Fat Antisune: `r U2 R' U' R U' r'`
+- Double Sune: `R U R' U R U' R' U R U2 R'`
+
 ## 7x7x7
 
-### Parity on Last Edge:
+### Edge Flipping Algorithm
+
+`R U R' F R' F' R` / `(R' F R F') R U' R'`
+
+### Parity on Last Edge
 
 `R2 B2 U2 L U2 R' U2 R U2 F2 R F2 L' B2 R2`
+
+### Edge Swap Algorithm
+
+`R U2 R U2 F2 R F2 L' U2 L U2 R2`

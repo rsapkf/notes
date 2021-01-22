@@ -6,6 +6,7 @@ title: Poems
 ## Edgar Allan Poe
 
 - [Alone](https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d) (1829)
+- [The Raven](https://en.wikipedia.org/wiki/The_Raven) (1845)
 
 ## Robert Frost
 
