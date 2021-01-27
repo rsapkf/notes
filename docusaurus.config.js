@@ -22,13 +22,13 @@ module.exports = {
           label: 'Notes',
           position: 'right',
         },
+        // { to: 'blog/', label: 'Blog', position: 'right' },
         {
           to: 'about/',
           activeBasePath: 'about',
           label: 'About',
           position: 'right',
         },
-        // { to: 'blog/', label: 'Blog', position: 'right' },
         {
           href: 'https://github.com/rsapkf/notes/',
           label: 'GitHub',
@@ -84,23 +84,6 @@ module.exports = {
             },
           ],
         },
-        // {
-        // title: 'Categories',
-        // items: [
-        //   {
-        //     label: 'Linux',
-        //     href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //   },
-        //   {
-        //     label: 'Programming',
-        //     href: 'https://discordapp.com/invite/docusaurus',
-        //   },
-        //   {
-        //     label: 'Puzzles',
-        //     href: 'https://twitter.com/docusaurus',
-        //   },
-        // ],
-        // },
         {
           title: '',
           items: [
@@ -108,10 +91,10 @@ module.exports = {
               label: 'View All Notes',
               to: 'docs/',
             },
-            // {
-            //   label: 'Blog',
-            //   to: 'blog',
-            // },
+            {
+              label: 'Blog',
+              to: 'blog/',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/rsapkf/notes/',

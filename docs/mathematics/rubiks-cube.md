@@ -8,6 +8,8 @@ title: Rubik's Cube
 ### 2x2x2
 
 - [Varasano-Ortega Method](https://www.speedsolving.com/wiki/index.php/Ortega_Method) - Jeffrey Varasano, Victor Ortega
+- [Guimond Method](https://www.speedsolving.com/wiki/index.php/Guimond_Method) - Gaétan Guimond
+- [EG](https://www.speedsolving.com/wiki/index.php/EG_Method) - Erik Akkersdijk, Gunnar Krig
 
 ### 3x3x3
 
@@ -22,38 +24,48 @@ title: Rubik's Cube
 - [Yau / Yau5](https://www.speedsolving.com/wiki/index.php/Yau_method) - Robert Yau
 - [Hoya / Hoya5](https://www.speedsolving.com/wiki/index.php/Hoya_method) - Jong-Ho Jeong
 
+### Blindfolded (BLD)
+
+- [Old Pochmann / Classic Pochmann](https://www.speedsolving.com/wiki/index.php/Classic_Pochmann) - Stefan Pochmann
+- [M2/R2](https://www.speedsolving.com/wiki/index.php/M2/R2) - Stefan Pochmann
+- [Beyer-Hardwick / BH / 3-Style](https://www.speedsolving.com/wiki/index.php/Beyer-Hardwick_Method) - Chris Hardwick, Daniel Beyer
+- [Orozco](https://www.speedsolving.com/wiki/index.php/Orozco_method) - Gabriel Alejandro Orozco Casillas
+- [Eka](https://www.speedsolving.com/wiki/index.php/Eka)
+
 ## 3x3x3
 
 ### 2-look OLL
 
 - Edges:
 
-  - Dot: `F (R U R' U') F' f (R U R' U') f'`
-  - L shape: `f (R U R' U') f'` / `F U R U' R' F's`
-  - I shape: `F (R U R' U') F'`
+  - Dot (OLL 2): `F (R U R' U') F' f (R U R' U') f'`
+  - L shape (OLL 44): `f (R U R' U') f'` / `F U R U' R' F'`
+  - I shape (OLL 45): `F (R U R' U') F'`
 
 - No corners solved:
 
-  - H: `F (R U R' U')3 F'`
-  - Pi: `R U2 (R2 U' R2 U' R2) U2 R`
+  - H (OLL 21): `F (R U R' U')3 F'`
+  - Pi / Air Jeff (OLL 22): `R U2 (R2 U' R2 U' R2) U2 R`
 
 - 1 corner solved:
 
-  - Sune: `R U R' U R U2 R'`
-  - Antisune: `R U2 R' U' R U' R'` / Back Sune: `R' U' R U' R' U2 R`
+  - Sune (OLL 27): `R U R' U R U2 R'`
+  - Antisune (OLL 26): `R U2 R' U' R U' R'` / Back Sune: `R' U' R U' R' U2 R`
 
 - 2 corners solved:
-  - L: `F' r U R' U' r' F R`
-  - T: `r U R' U' r' F R F'`
-  - U: `R2 D R' U2 R D' R' U2 R'`
+  - L (OLL ): `F' r U R' U' r' F R`
+  - T (OLL 24): `(r U R' U') (r' F R F')`
+  - U (OLL 23): `R2 D R' U2 R D' R' U2 R'`
 
 ### 2-look PLL
 
 - Diagonal Corner Swap:
-  `(F R U' R' U' R U R' F') (R U R' U' R' F R F')`
+
+  - Y: `(F R U' R' U' R U R' F') (R U R' U' R' F R F')`
 
 - Adjacent Corner Swap (Headlights):
-  `(R U R' U' R' F) R2 (U' R' U' R U R' F')`
+
+  - T: `(R U R' U' R' F) R2 (U' R' U' R U R' F')`
 
 - 3-Edges:
 
@@ -78,15 +90,17 @@ title: Rubik's Cube
 - 4Ts: `F2 D2 F' L2 D2 U2 R2 B' U2 F2`
 - 6Ts: `F2 R2 U2 F' B D2 L2 F B`
 
-### Terminology
+### Triggers
 
 - Sexy: `R U R' U'`
 - Sledgehammer: `R' F R F'`
+- Hedgeslammer: `F R' F' R`
 - Sune / Anti-chair: `R U R' U R U2 R'`
 - Fat Sune: `r U R' U R U2 r'`
 - Antisune / Chair: `R U2 R' U' R U' R'`
 - Fat Antisune: `r U2 R' U' R U' r'`
 - Double Sune: `R U R' U R U' R' U R U2 R'`
+- Air Jeff: `R U2 R2 U' R2 U' R2 U2 R`
 
 ## 7x7x7
 
@@ -101,3 +115,9 @@ title: Rubik's Cube
 ### Edge Swap Algorithm
 
 `R U2 R U2 F2 R F2 L' U2 L U2 R2`
+
+## Miscellaneous
+
+### Speffz Lettering Scheme
+
+[![Speffz Lettering Scheme](https://www.speedsolving.com/wiki/images/4/49/Speffz.png)](https://www.speedsolving.com/wiki/index.php/Speffz)

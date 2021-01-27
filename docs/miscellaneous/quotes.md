@@ -92,6 +92,14 @@ title: Quotes
 
 ---
 
+### Red vs. Blue
+
+#### Super Colonel Sarge
+
+- In [Red vs. Blue S12E12 "The Reunion"](https://youtu.be/9pfGQ5msrrU?t=102)
+
+> _We've been tricked, we've been backstabbed and we've been quite possibly, bamboozled._
+
 ## Science
 
 ### Carl Sagan
@@ -114,8 +122,14 @@ title: Quotes
 
 ### James Randi
 
-> _I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right._ - James Randi
+> _I've said it before: there are two sorts of atheists. One sort claims that there is no deity, the other claims that there is no evidence that proves the existence of a deity; I belong to the latter group, because if I were to claim that no god exists, I would have to produce evidence to establish that claim, and I cannot. Religious persons have by far the easier position; they say they believe in a deity because that's their preference, and they've read it in a book. That's their right._
 
 ### Rob Siltanen
 
 > _Here's to the crazy ones. The misfits. The rebels. The troublemakers. The round pegs in the square holes. The ones who see things differently. They're not fond of rules. And they have no respect for the status quo. You can quote them, disagree with them, glorify or vilify them. About the only thing you can't do is ignore them. Because they change things. They push the human race forward. And while some may see them as the crazy ones, we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do._
+
+### Michael Steven (Vsauce)
+
+- In [LET'S PLAY SUPER MARIO QUADRATICS - D!NG](https://youtu.be/ewAHYVzMobw?t=785)
+
+> _I'm gonna do what's called a pro gamer move._
