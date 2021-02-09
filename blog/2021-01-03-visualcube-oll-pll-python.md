@@ -29,7 +29,7 @@ let algs = '';
 document.querySelectorAll('.case-img').forEach((img) => {
   let params = new URLSearchParams(img.src);
   // get the value of case parameter from URL and remove all spaces
-  // I found that AlgDb uses http://cubiclealgdbimagegen.azurewebsites.net/generator?&puzzle=3&case=<algorithm>&view=plan&stage=pll for images which has a similar API as VisualCube
+  // I found that AlgDb uses its own hosted version of VisualCube with a similar API for images
   let alg = params.get('case').split(' ').join('');
   // extract the PLL case name from parent's href attribute
   let pll = img.parentNode.getAttribute('href').replace('/puzzle/333/pll/', '');

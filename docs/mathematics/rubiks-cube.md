@@ -34,7 +34,7 @@ title: Rubik's Cube
 
 ### Square-1
 
-- [Vandenbergh_method](https://www.speedsolving.com/wiki/index.php/Vandenbergh_method)
+- [Vandenbergh Method](https://www.speedsolving.com/wiki/index.php/Vandenbergh_method)
 
 ## 3x3x3
 
