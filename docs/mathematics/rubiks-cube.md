@@ -32,6 +32,10 @@ title: Rubik's Cube
 - [Orozco](https://www.speedsolving.com/wiki/index.php/Orozco_method) - Gabriel Alejandro Orozco Casillas
 - [Eka](https://www.speedsolving.com/wiki/index.php/Eka)
 
+### Square-1
+
+- [Vandenbergh_method](https://www.speedsolving.com/wiki/index.php/Vandenbergh_method)
+
 ## 3x3x3
 
 ### 2-look OLL

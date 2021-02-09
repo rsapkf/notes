@@ -3,10 +3,11 @@ module.exports = {
   tagline: '"I\'m writing this down. This is good stuff." - George McFly',
   // url: 'https://rsapkf.github.io',
   url: 'https://rsapkf-notes.netlify.app',
+  // baseUrl: '/notes/'
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'rsapkf', // Usually your GitHub org/user name.
-  projectName: 'notes', // Usually your repo name.
+  organizationName: 'rsapkf',
+  projectName: 'notes',
   themeConfig: {
     // sidebarCollapsible: false,
     navbar: {
@@ -22,7 +23,7 @@ module.exports = {
           label: 'Notes',
           position: 'right',
         },
-        // { to: 'blog/', label: 'Blog', position: 'right' },
+        { to: 'blog/', label: 'Blog', position: 'right' },
         {
           to: 'about/',
           activeBasePath: 'about',
@@ -118,6 +119,10 @@ module.exports = {
         blog: {
           showReadingTime: true,
           editUrl: 'https://github.com/rsapkf/notes/blob/master/',
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} rsapkf`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
