@@ -90,8 +90,6 @@ title: Quotes
 
 > _The universe is a cruel, uncaring void. The key to being happy isn't a search for meaning. It's to keep yourself busy with unimportant nonsense, and eventually you'll be dead._
 
----
-
 ### Red vs. Blue
 
 #### Super Colonel Sarge
@@ -119,6 +117,10 @@ title: Quotes
 ### Mark Twain
 
 > _It is better to keep your mouth closed and let people think you are a fool than to open it and remove all doubt._
+
+### Edgar Allan Poe
+
+> _Years of love have been forgot, In the hatred of a minute._
 
 ### James Randi
 

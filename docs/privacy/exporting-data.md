@@ -14,7 +14,7 @@ title: Exporting Data
 
 ## Google
 
-- [Google Takeout](https://takeout.google.com/).
+- [Google Takeout](https://takeout.google.com/)
 
 ## Reddit
 

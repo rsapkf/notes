@@ -97,6 +97,10 @@ module.exports = {
               to: 'blog/',
             },
             {
+              label: 'RSS',
+              to: 'blog/rss.xml',
+            },
+            {
               label: 'GitHub',
               href: 'https://github.com/rsapkf/notes/',
             },

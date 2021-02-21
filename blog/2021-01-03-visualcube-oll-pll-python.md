@@ -1,10 +1,10 @@
 ---
 id: oll-pll-visualizations-visualcube
-title: Making OLL and PLL visualizations using VisualCube and Python.
+title: Making OLL and PLL visualizations using VisualCube and Python
 tags: [cfop, cubing, python]
 ---
 
-[VisualCube](http://cube.rider.biz/visualcube.php) ([Source](https://github.com/Cride5/visualcube)) is a PHP script that allows you to make visualizations for the Rubik's Cube for demonstration purposes. Well-known speedcubing guides use this tool. I wanted to download all and PLL cases in SVG and PNG formats for my [PLL recognition guide](https://rsapkf.xyz/hobbies/pll-recognition-guide). Here's how I did it using few short Python and JavaScript scripts.
+[VisualCube](http://cube.rider.biz/visualcube.php) ([Source](https://github.com/Cride5/visualcube)) is a PHP script that allows you to make visualizations for the Rubik's Cube for demonstration purposes. Well-known speedcubing guides use this tool. I wanted to download all OLL and PLL cases in SVG and PNG formats for my [PLL recognition guide](https://rsapkf.xyz/hobbies/pll-recognition-guide). Here's how I did it using few short Python and JavaScript scripts.
 
 <!--truncate-->
 
@@ -62,7 +62,7 @@ console.log(`olls = {\n${algs}}`);
 
 The following Python script iterates through these dicts to get the images and saves them locally as **<oll_number>.svg** and **<pll_name>.svg** respectively in separate directories. Notice the `oll_url` has an additional parameter called `stage` equal to `oll` so that irrelevant stickers are masked from being coloured and makes the result clearer. Just replace the occurences of `svg` in the file to `png` and run the script again to get all images as PNG files.
 
-Make sure to run this from an empty directory.
+Make sure to run this from an empty directory. Note that these algorithms may not be the best ones in terms of fingertricks and efficiency. In some algs, y/y'/y2 moves have been added at the beginning in order to output images at an angle in which I apply certain algs.
 
 ```python title="script.py"
 import os
@@ -76,22 +76,22 @@ pll_url = 'http://cube.rider.biz/visualcube.php?fmt=svg&pzl=3&view=plan&case='
 plls = {
     "Aa": "R'FR'B2RF'R'B2R2",
     "Ab": "l'R'D2RUR'D2RU'Rx'",
-    "E": "LR'U'RUL'U'R'URrUR'U'r'FRF'",
-    "F": "R'URU'R2F'U'FURFR'F'R2",
+    "E": "yLR'U'RUL'U'R'URrUR'U'r'FRF'",
+    "F": "y'R'URU'R2F'U'FURFR'F'R2",
     "Ga": "R2uR'UR'U'Ru'R2y'R'UR",
     "Gb": "R'U'RyR2uR'URU'Ru'R2",
     "Gc": "R2u'RU'RUR'uR2yRU'R'",
     "Gd": "RUR'y'R2u'RU'R'UR'uR2",
     "H": "M2UM2U2M2UM2",
-    "Ja": "L'U2LUL'U2RU'LUR'",
+    "Ja": "y'L'U2LUL'U2RU'LUR'",
     "Jb": "RUR'F'RUR'U'R'FR2U'R'U'",
     "Na": "LU'RU2L'UR'LU'RU2L'UR'",
     "Nb": "R'UL'U2RU'LR'UL'U2RU'L",
-    "Ra": "LU2L'U2LF'L'U'LULFL2",
+    "Ra": "y'LU2L'U2LF'L'U'LULFL2",
     "Rb": "R'U2RU2R'FRUR'U'R'F'R2",
     "T": "RUR'U'R'FR2U'R'U'RUR'F'",
-    "Ua": "R2U'R'U'RURURU'R",
-    "Ub": "R'UR'U'R'U'R'URUR2",
+    "Ua": "y2R2U'R'U'RURURU'R",
+    "Ub": "y2R'UR'U'R'U'R'URUR2",
     "V": "R'UR'd'R'F'R2U'R'UR'FRF",
     "Y": "FRU'R'U'RUR'F'RUR'U'R'FRF'",
     "Z": "M2UM2UM'U2M2U2M'",
@@ -101,16 +101,16 @@ plls = {
 olls = {
     "1": "RU2R2'FRF'U2R'FRF'",
     "2": "FRUR'U'F'fRUR'U'f'",
-    "3": "r'R2UR'UrU2r'UM'",
-    "4": "MU'rU2r'U'RU'R2r",
+    "3": "yr'R2UR'UrU2r'UM'",
+    "4": "yMU'rU2r'U'RU'R2r",
     "5": "r'U2RUR'Ur",
     "6": "rU2R'U'RU'r'",
     "7": "rUR'URU2r'",
-    "8": "l'U'LU'L'U2l",
-    "9": "RU2R'M'U'RU'R'UM",
+    "8": "y2l'U'LU'L'U2l",
+    "9": "y'RU2R'M'U'RU'R'UM",
     "10": "RUR'yR'FRU'R'F'R",
     "11": "r'R2UR'URU2R'UM'",
-    "12": "FRUR'U'F'UFRUR'U'F'",
+    "12": "yFRUR'U'F'UFRUR'U'F'",
     "13": "FURU'R2F'RURU'R'",
     "14": "R'FRUR'F'Ry'RU'R'",
     "15": "r'U'rR'U'RUr'Ur",
@@ -119,27 +119,27 @@ olls = {
     "18": "l'U'r'U2LU2L'U2rUl",
     "19": "r'RURUR'U'rR2'FRF'",
     "20": "MURUR'U'M2URU'r'",
-    "21": "RUR'URU'R'URU2R'",
+    "21": "y'RUR'URU'R'URU2R'",
     "22": "RU2R2U'R2U'R2U2R",
     "23": "R2DR'U2RD'R'U2R'",
     "24": "rUR'U'r'FRF'",
     "25": "R'FRB'R'F'RB",
-    "26": "R'U'RU'R'U2R",
+    "26": "y'R'U'RU'R'U2R",
     "27": "RUR'URU2R'",
     "28": "rUR'U'MURU'R'",
     "29": "MURUR'U'R'FRF'M'",
-    "30": "r'U2RUR'UrRU2R'U'RU'R'",
+    "30": "yr'U2RUR'UrRU2R'U'RU'R'",
     "31": "R'U'FURU'R'F'R",
     "32": "RUB'U'R'URBR'",
     "33": "RUR'U'R'FRF'",
-    "34": "FRUR'U'R'F'rURU'r'",
+    "34": "y2FRUR'U'R'F'rURU'r'",
     "35": "RU2R2'FRF'RU2R'",
     "36": "R'U'RU'R'URURyR'F'R",
     "37": "FR'F'RURU'R'",
     "38": "RUR'URU'R'U'R'FRF'",
-    "39": "R'r'D'rU'r'DrUR",
-    "40": "RrDr'UrD'r'U'R'",
-    "41": "RU'R'U2RUyRU'R'U'F'",
+    "39": "y'R'r'D'rU'r'DrUR",
+    "40": "y'RrDr'UrD'r'U'R'",
+    "41": "y2RU'R'U2RUyRU'R'U'F'",
     "42": "R'U'RU'R'U2RFRUR'U'F'",
     "43": "f'L'U'LUf",
     "44": "fRUR'U'f'",
@@ -147,7 +147,7 @@ olls = {
     "46": "R'U'R'FRF'UR",
     "47": "F'L'U'LUL'U'LUF",
     "48": "FRUR'U'RUR'U'F'",
-    "49": "RB'R2FR2BR2F'R",
+    "49": "y2RB'R2FR2BR2F'R",
     "50": "r'Ur2U'r2'U'r2Ur'",
     "51": "fRUR'U'RUR'U'f'",
     "52": "RUR'URd'RU'R'F'",

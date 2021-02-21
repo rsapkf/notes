@@ -49,7 +49,7 @@ title: Rubik's Cube
 - No corners solved:
 
   - H (OLL 21): `F (R U R' U')3 F'`
-  - Pi / Air Jeff (OLL 22): `R U2 (R2 U' R2 U' R2) U2 R`
+  - Pi / Air Jeff (OLL 22): `R U2 R2 U' R2 U' R2 U2 R`
 
 - 1 corner solved:
 
@@ -57,7 +57,7 @@ title: Rubik's Cube
   - Antisune (OLL 26): `R U2 R' U' R U' R'` / Back Sune: `R' U' R U' R' U2 R`
 
 - 2 corners solved:
-  - L (OLL ): `F' r U R' U' r' F R`
+  - L (OLL 25): `F' (r U R' U') r' F R`
   - T (OLL 24): `(r U R' U') (r' F R F')`
   - U (OLL 23): `R2 D R' U2 R D' R' U2 R'`
 
@@ -65,22 +65,22 @@ title: Rubik's Cube
 
 - Diagonal Corner Swap:
 
-  - Y: `(F R U' R' U' R U R' F') (R U R' U' R' F R F')`
+  - Y: `F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')`
 
 - Adjacent Corner Swap (Headlights):
 
-  - T: `(R U R' U' R' F) R2 (U' R' U' R U R' F')`
+  - T: `(R U R' U') (R' F R2 U') R' U' (R U R' F')`
 
 - 3-Edges:
 
-  - Ua: `R U' R U R U R U' R' U' R2`
-  - Ub: `R2 U R U R' U' R' U' R' U R'`
+  - Ua: `L2 U' (L' U' L U) L U (L U' L)` / `R U' R U R U R U' R' U' R2`
+  - Ub: `R2 U (R U R' U') R' U' (R' U R')`
 
 - 4-Edges:
 
   - H: `M2 U' M2 U2 M2 U' M2`
 
-  - Z: `M' U' M2 U' M2 U' M' U2 M2` / `M2 U M2 U M' U2 M2 U2 M' U2`
+  - Z: `M2 U M2 U M' U2 M2 U2 M' U2`
 
 ### Patterns
 

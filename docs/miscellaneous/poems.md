@@ -7,6 +7,7 @@ title: Poems
 
 - [Alone](https://www.poetryfoundation.org/poems/46477/alone-56d2265f2667d) (1829)
 - [The Raven](https://en.wikipedia.org/wiki/The_Raven) (1845)
+- [A Dream Within a Dream ](https://www.poetryfoundation.org/poems/52829/a-dream-within-a-dream) (1849)
 
 ## Robert Frost
 
