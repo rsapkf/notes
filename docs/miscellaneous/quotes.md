@@ -31,6 +31,8 @@ title: Quotes
 
 > _All of humanity's problems stem from man's inability to sit quietly in a room alone._
 
+> _If I had more time, I would have written a shorter letter._[\*](https://knowyourmeme.com/memes/if-i-had-more-time-i-would-have-written-a-shorter-letter)
+
 ---
 
 ## Novels, Books, Movies, TV-Series

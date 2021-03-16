@@ -93,6 +93,7 @@ title: Rubik's Cube
 - 4 Crosses: `U2 R2 L2 F2 B2 D2 L2 R2 F2 B2`
 - 4Ts: `F2 D2 F' L2 D2 U2 R2 B' U2 F2`
 - 6Ts: `F2 R2 U2 F' B D2 L2 F B`
+- Solve only 3 sides: `U' D L2 U B2 D2 B2 D2 L F' U D' R U' F2 L F' B'`
 
 ### Triggers
 

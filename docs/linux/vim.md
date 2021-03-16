@@ -16,7 +16,7 @@ title: Vim / Neovim
 - `:b file` - switch between all open files.
 - `:b#` - open last visited file.
 
-## Tabs (I use tmux, not needed anymore)
+## Tabs 
 
 - `:tabs` - list all tabs including their displayed windows.
 - `:tabm 0` - move current tab to first.

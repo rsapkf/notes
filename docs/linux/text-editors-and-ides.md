@@ -9,7 +9,8 @@ title: Text Editors and IDEs
 
 ## Gedit
 
-- `<C-:>` to open emoji window.
+- `<C-:>` - open emoji window.
+- `F9` - toggle side panel.
 - Install Dracula Theme(https://draculatheme.com/gedit)
 
   - Download the raw file:

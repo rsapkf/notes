@@ -91,6 +91,7 @@ title: Websites
 - [color picker](https://www.google.com/search?q=color%20picker)
 - [calculator](https://www.google.com/search?q=calculator)
 - [unit converter](https://www.google.com/search?q=unit+converter)
+- [internet speed test](https://www.google.com/search?q=internet+speed+test)
 
 ## Google Search Easter Eggs
 
